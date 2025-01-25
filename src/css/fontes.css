@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'Yugioh';
+    src:url(../fontes/fonte-yu-gi-oh.otf);
+}
+
+@font-face{
+    font-family: 'Pokemon';
+    src: url(../fontes/PokemonGb-RAeo.ttf);
+}
