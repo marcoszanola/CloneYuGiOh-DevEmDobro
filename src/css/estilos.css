@@ -1,12 +1,12 @@
 body {
-    background-image: url(../imagens/fundo-site.jpg);
+    background-image: url(../imagens/pmdbackground1920cortado2.png);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    gap: 30px;
+    gap: 60px;
 }
 
 header {
@@ -16,7 +16,11 @@ header {
 }
 
 .cabecalho .titulo {
-    color: #f1ecff;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
 }
 
 main {
@@ -34,6 +38,7 @@ main {
     padding: 12px;
     gap: 5px;
     position: absolute;
+    transition: 0.5s;
 }
 
 .cartao.selecionado {
@@ -50,11 +55,23 @@ main {
 
 .cartao .nome-personagem {
     background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
-    font-size: 13px;
+    font-size: 15px;
     padding: 5px;
     text-transform: uppercase;
     border: 2px solid #a67c52;
     border-radius: 4px;
+}
+
+.nome-personagem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.nome-personagem img {
+    height: 28px;
+    width: auto;
 }
 
 .cartao .estrela {
@@ -144,7 +161,7 @@ main {
     border: 0;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
 }
 
 .btn-seta.btn-voltar{
@@ -152,7 +169,7 @@ main {
 }
 
 .btn-seta:hover{
-    background-color: #8351fe;
+    background-color: #03fcba;
 }
 
 body::-webkit-scrollbar-track{
