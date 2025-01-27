@@ -18,6 +18,12 @@
         width: 100%;
     }
 
+    .titulo img{
+        max-width: 353px;
+        position: relative;
+        justify-content: center;
+    }
+
     .slider{
         position: relative;
     }
@@ -34,15 +40,22 @@
         right: 20%;
     }
 
-    @media(max-height: 640px){
+    @media(max-height: 670px){
         body{
-            justify-content: start;
             padding-top: 10px;
             gap: 10px;
         }
+    }
 
-        .cabecalho{
-            font-size: 12px;
-        }
+    .btn-seta.btn-voltar{
+        position: absolute;
+        bottom: -12%;
+        left: 20%;
+    }
+
+    .btn-seta.btn-avancar{
+        position: absolute;
+        bottom: -12%;
+        right: 20%;
     }
 }
