@@ -1,0 +1,48 @@
+@media(max-width: 768px){
+    body{
+        background-position: center;
+        padding: 0 15px;
+    }
+
+    .slider{
+        gap: 10px;
+    }
+}
+
+@media(max-width: 496px){
+    .lista-personagens{
+        width: 250px;
+    }
+
+    .imagem-carta{
+        width: 100%;
+    }
+
+    .slider{
+        position: relative;
+    }
+
+    .btn-seta.btn-voltar{
+        position: absolute;
+        bottom: -15%;
+        left: 20%;
+    }
+
+    .btn-seta.btn-avancar{
+        position: absolute;
+        bottom: -15%;
+        right: 20%;
+    }
+
+    @media(max-height: 640px){
+        body{
+            justify-content: start;
+            padding-top: 10px;
+            gap: 10px;
+        }
+
+        .cabecalho{
+            font-size: 12px;
+        }
+    }
+}
