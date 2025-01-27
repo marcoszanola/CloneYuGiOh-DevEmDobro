@@ -23,3 +23,14 @@ function voltar(){
 
 btnAvancar.addEventListener("click", avancar);
 btnVoltar.addEventListener("click", voltar);
+
+cartoes.forEach(cartao => {
+    cartao.addEventListener("click", function(){
+        let cartaVirada = cartao.querySelector('.carta-virada');
+        cartao.classList.toggle('virar');
+        cartaVirada.classList.toggle('mostrar-fundo-carta');
+
+        let descricao = cartao.querySelector('.descricao');
+        descricao.classList.toggle('esconder');
+    });
+});

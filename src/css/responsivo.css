@@ -28,6 +28,15 @@
         position: relative;
     }
 
+    .cartao .estrela{
+        width: 15px;
+        height: 15px;
+    }
+
+    .cartao .nome-personagem{
+        font-size: 12px;
+    }
+
     .btn-seta.btn-voltar{
         position: absolute;
         bottom: -15%;
