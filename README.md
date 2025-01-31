@@ -1,8 +1,8 @@
 # Visualizador de Cartas Po-Ki-Oh!
 
 <h2>Sobre</h2>
-<p>Projeto de visualizador de cartas, desenvolvido com o principal foco sendo o aprendizado e desenvolvimento do desenvolvedor.</p>
-<p>O HTML, CSS e o JavaScript foram desenvolvidos do zero apenas com conceitos básicos, desenvolvido na IDE VisualStudio.</p>
+<p>Projeto de visualizador de cartas, desenvolvido com o principal foco sendo o aprendizado e estudo do desenvolvedor.</p>
+<p>O HTML, CSS e o JavaScript foram desenvolvidos do zero apenas com conceitos básicos e sem uso de frameworks, desenvolvido na IDE VisualStudio.</p>
 
 <h3>Funcionalidades do programa:</h3>
 

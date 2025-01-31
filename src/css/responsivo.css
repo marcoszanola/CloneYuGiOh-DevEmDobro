@@ -49,6 +49,73 @@
         right: 20%;
     }
 
+    .menu-transparente{
+        top: -15%;
+        left: -3.5%;
+        pointer-events: none;
+        transform: translateY(10px);
+        transition: opacity 0.75s ease, transform 0.5s ease-in-out, visibility 0.5s ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        z-index: 3;
+    }
+    
+    .menu-transparente.mostrar-menu{
+        top: -15%;
+        left: -3.5%;
+        opacity: 0.9;
+        transform: translateY(0);
+        pointer-events: all;
+        visibility: visible;
+        z-index: 3;
+    }
+
+    .menu-setTransparente{
+        top: 42%;
+        left: -70%;
+        pointer-events: none;
+        transform:rotateZ(270deg);
+        transition: opacity 0.75s ease, transform 0.5s ease-in-out, visibility 0.5s ease-in-out;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        z-index: 3;
+    }
+    
+    .menu-setTransparente.mostrar-menu{
+        top: 42%;
+        left: -70%;
+        opacity: 0.9;
+        transform:rotateZ(270deg);
+        pointer-events: all;
+        visibility: visible;
+        z-index: 3;
+    }
+
+    .menu-inicial, .menu-set, .menu-combate{
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        gap: 5px;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.75s ease, transform 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    }
+    
+    .gif-escudo{
+        z-index: 3;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 200px;
+        top: 20%;
+        left: 15%;
+        transition: opacity 0.5s ease-in-out;
+    }
+
     @media(max-height: 670px){
         body{
             padding-top: 10px;
@@ -58,13 +125,26 @@
 
     .btn-seta.btn-voltar{
         position: absolute;
-        bottom: -12%;
+        bottom: -10%;
         left: 20%;
     }
 
     .btn-seta.btn-avancar{
         position: absolute;
-        bottom: -12%;
+        bottom: -10%;
         right: 20%;
+    }
+
+    .gif-escudo{
+        z-index: 3;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+        top: 10%;
+        left: 2%;
+        transition: opacity 0.5s ease-in-out;
     }
 }

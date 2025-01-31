@@ -16,10 +16,21 @@
     <header class="cabecalho">
         <h1 class="titulo"><img src="src/imagens/PoKiOh53bendtop.png" alt="Logo"></h1>
     </header>
+
+    <audio class="som-clique" src="src/audios/Pokemon click.mp3"></audio>
+    <audio class="som-dano" src="src/audios/hit-super-effective.mp3"></audio>
+    <audio class="som-defesa" src="src/audios/Harden gen3.mp3"></audio>
+    <audio class="som-danoBaixo" src="src/audios/Hit Weak Not Very Effective.mp3"></audio>
+
+
     <main class="slider">
-        <button type="button" class="btn-seta btn-voltar" id="btn-voltar">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
             <img src="src/imagens/seta.png" alt="Seta para voltar">
         </button>
+
+        <div class="gif-escudo esconder">
+            <img src="src/imagens/gifs/moves/shield.gif" alt="GIF Escudo">
+        </div>
 
         <ul class="lista-personagens">
             <li class="cartao fundo-1 selecionado">
@@ -57,6 +68,64 @@
                         <span>DEF/ 2100</span>
                     </div>
                 </div>
+
+                <div class="menu-transparente">
+
+                    <img class="menu-box" src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-inicial">
+                        <button class="btn-opcao btn-summon">
+                            <img src="src/imagens/Summon.png" alt="Summon Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-set">
+                            <img src="src/imagens/Set.png" alt="Set Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+    
+                    <div class="menu-combate">
+                        <button class="btn-opcao btn-ataque">
+                            <img src="src/imagens/Attack.jpg" alt="Attack Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-defend">
+                            <img src="src/imagens/Defense.jpg" alt="Defense Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewComb">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-setTransparente">
+
+                    <img src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-set">
+                        <button class="btn-opcao btn-flipsummon">
+                            <img src="src/imagens/Flip Summon.png" alt="Flip Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewSet">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carta-escura" ></div>
+
+                <img class="darumaka-gif" src="src/imagens/gifs/sprites/darumaka.gif" alt="GIF Darumaka PKParaiso">
+                <img class="darmanitan-gif" src="src/imagens/gifs/sprites/darmanitan.gif" alt="">
+
+                <div class="texto-dano ataque esconder">-3200</div>
+                <div class="texto-dano defesa esconder">-0</div>
+                <div class="gif-golpe esconder">
+                    <img src="src/imagens/gifs/moves/fire explosion.gif" alt="GIF Fireball">
+                </div>
+                <audio class="cry" src="src/audios/darumaka cry.ogg"></audio>
+                <audio class="cry-adicional" src="src/audios/darmanitan cry.ogg"></audio>
             </li>
 
             <li class="cartao fundo-2">
@@ -88,6 +157,62 @@
                         <span>DEF/ 800</span>
                     </div>
                 </div>
+
+                <div class="menu-transparente">
+
+                    <img class="menu-box" src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-inicial">
+                        <button class="btn-opcao btn-summon">
+                            <img src="src/imagens/Summon.png" alt="Summon Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-set">
+                            <img src="src/imagens/Set.png" alt="Set Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+    
+                    <div class="menu-combate">
+                        <button class="btn-opcao btn-ataque">
+                            <img src="src/imagens/Attack.jpg" alt="Attack Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-defend">
+                            <img src="src/imagens/Defense.jpg" alt="Defense Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewComb">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-setTransparente">
+
+                    <img src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-set">
+                        <button class="btn-opcao btn-flipsummon">
+                            <img src="src/imagens/Flip Summon.png" alt="Flip Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewSet">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carta-escura" ></div>
+
+                <img class="chatot-gif" src="src/imagens/gifs/sprites/XYchatot.gif" alt="GIF Chatot PKParaiso">
+
+                <div class="texto-dano ataque esconder">-1900</div>
+                <div class="texto-dano defesa esconder">-0</div>
+                <div class="gif-golpe esconder">
+                    <img src="src/imagens/gifs/moves/music notes.gif" alt="GIF Songs">
+                </div>
+                <audio class="cry" src="src/audios/chatot cry.ogg"></audio>
             </li>
 
             <li class="cartao fundo-3">
@@ -130,6 +255,63 @@
                         <span>DEF/ 4000</span>
                     </div>
                 </div>
+
+                <div class="menu-transparente">
+
+                    <img class="menu-box" src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-inicial">
+                        <button class="btn-opcao btn-summon">
+                            <img src="src/imagens/Summon.png" alt="Summon Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-set">
+                            <img src="src/imagens/Set.png" alt="Set Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+    
+                    <div class="menu-combate">
+                        <button class="btn-opcao btn-ataque">
+                            <img src="src/imagens/Attack.jpg" alt="Attack Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-defend">
+                            <img src="src/imagens/Defense.jpg" alt="Defense Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewComb">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-setTransparente">
+
+                    <img src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-set">
+                        <button class="btn-opcao btn-flipsummon">
+                            <img src="src/imagens/Flip Summon.png" alt="Flip Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewSet">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carta-escura" ></div>
+                
+                <img class="jirachi-gif" src="src/imagens/gifs/sprites/SSjirachi.gif" alt="GIF Jirachi PKParaiso">
+
+                <div class="texto-dano ataque esconder">-4000</div>
+                <div class="texto-dano defesa esconder">-0</div>
+                <div class="gif-golpe esconder">
+                    <img src="src/imagens/gifs/moves/cadente.gif" alt="GIF Star">
+                </div>
+                <audio class="cry" src="src/audios/jirachi cry.ogg"></audio>
+
             </li>
 
             <li class="cartao fundo-4">
@@ -164,6 +346,62 @@
                         <span>DEF/ 2000</span>
                     </div>
                 </div>
+
+                <div class="menu-transparente">
+
+                    <img class="menu-box" src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-inicial">
+                        <button class="btn-opcao btn-summon">
+                            <img src="src/imagens/Summon.png" alt="Summon Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-set">
+                            <img src="src/imagens/Set.png" alt="Set Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+    
+                    <div class="menu-combate">
+                        <button class="btn-opcao btn-ataque">
+                            <img src="src/imagens/Attack.jpg" alt="Attack Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-defend">
+                            <img src="src/imagens/Defense.jpg" alt="Defense Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewComb">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-setTransparente">
+
+                    <img src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-set">
+                        <button class="btn-opcao btn-flipsummon">
+                            <img src="src/imagens/Flip Summon.png" alt="Flip Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewSet">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carta-escura" ></div>
+
+                <img class="gyarados-gif" src="src/imagens/gifs/sprites/SSgyarados.gif" alt="GIF Gyarados PKParaiso">
+
+                <div class="texto-dano ataque esconder">-2900</div>
+                <div class="texto-dano defesa esconder">-0</div>
+                <div class="gif-golpe esconder">
+                    <img src="src/imagens/gifs/moves/sea wave.gif" alt="GIF Wave">
+                </div>
+                <audio class="cry" src="src/audios/gyarados cry.ogg"></audio>
             </li>
 
             <li class="cartao fundo-5">
@@ -194,6 +432,62 @@
                         <span>DEF/ 2300</span>
                     </div>
                 </div>
+
+                <div class="menu-transparente">
+
+                    <img class="menu-box" src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-inicial">
+                        <button class="btn-opcao btn-summon">
+                            <img src="src/imagens/Summon.png" alt="Summon Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-set">
+                            <img src="src/imagens/Set.png" alt="Set Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+    
+                    <div class="menu-combate">
+                        <button class="btn-opcao btn-ataque">
+                            <img src="src/imagens/Attack.jpg" alt="Attack Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-defend">
+                            <img src="src/imagens/Defense.jpg" alt="Defense Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewComb">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-setTransparente">
+
+                    <img src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-set">
+                        <button class="btn-opcao btn-flipsummon">
+                            <img src="src/imagens/Flip Summon.png" alt="Flip Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewSet">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carta-escura" ></div>
+
+                <img class="tropius-gif" src="src/imagens/gifs/sprites/XYtropius.gif" alt="GIF tropius PKParaiso">
+
+                <div class="texto-dano ataque esconder">-700</div>
+                <div class="texto-dano defesa esconder">-0</div>
+                <div class="gif-golpe esconder">
+                    <img src="src/imagens/gifs/moves/gust.gif" alt="GIF Gust">
+                </div>
+                <audio class="cry" src="src/audios/tropius cry.ogg"></audio>
             </li>
 
             <li class="cartao fundo-6">
@@ -227,6 +521,62 @@
                         <span>DEF/ 1800</span>
                     </div>
                 </div>
+
+                <div class="menu-transparente">
+
+                    <img class="menu-box" src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-inicial">
+                        <button class="btn-opcao btn-summon">
+                            <img src="src/imagens/Summon.png" alt="Summon Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-set">
+                            <img src="src/imagens/Set.png" alt="Set Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+    
+                    <div class="menu-combate">
+                        <button class="btn-opcao btn-ataque">
+                            <img src="src/imagens/Attack.jpg" alt="Attack Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-defend">
+                            <img src="src/imagens/Defense.jpg" alt="Defense Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewComb">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-setTransparente">
+
+                    <img src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-set">
+                        <button class="btn-opcao btn-flipsummon">
+                            <img src="src/imagens/Flip Summon.png" alt="Flip Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewSet">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carta-escura" ></div>
+
+                <img class="golurk-gif" src="src/imagens/gifs/sprites/SSgolurk.gif" alt="GIF Golurk PKParaiso">
+
+                <div class="texto-dano ataque esconder">-2500</div>
+                <div class="texto-dano defesa esconder">-0</div>
+                <div class="gif-golpe esconder">
+                    <img src="src/imagens/gifs/moves/jewel punch.gif" alt="GIF Punch">
+                </div>
+                <audio class="cry" src="src/audios/golurk cry.ogg"></audio>
             </li>
 
             <li class="cartao fundo-7">
@@ -274,14 +624,74 @@
                         <span>DEF/ 7300</span>
                     </div>
                 </div>
+
+                <div class="menu-transparente">
+
+                    <img class="menu-box" src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-inicial">
+                        <button class="btn-opcao btn-summon">
+                            <img src="src/imagens/Summon.png" alt="Summon Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-set">
+                            <img src="src/imagens/Set.png" alt="Set Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+    
+                    <div class="menu-combate">
+                        <button class="btn-opcao btn-ataque">
+                            <img src="src/imagens/Attack.jpg" alt="Attack Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-defend">
+                            <img src="src/imagens/Defense.jpg" alt="Defense Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewComb">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="menu-setTransparente">
+
+                    <img src="src/imagens/menu box.png" alt="">
+
+                    <div class="menu-set">
+                        <button class="btn-opcao btn-flipsummon">
+                            <img src="src/imagens/Flip Summon.png" alt="Flip Icon Ripped by Phongpon">
+                        </button>
+
+                        <button class="btn-opcao btn-viewSet">
+                            <img src="src/imagens/View Card.png" alt="View Icon Ripped by Phongpon">
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="carta-escura" ></div>
+
+                <img class="manaphy-gif" src="src/imagens/gifs/sprites/XYmanaphy.gif" alt="GIF Manaphy PKParaiso">
+                <img class="kyogre-gif" src="src/imagens/gifs/sprites/XYkyogre.gif" alt="GIF Kyogre PKParaiso">
+
+                <div class="texto-dano ataque esconder">-8300</div>
+                <div class="texto-dano defesa esconder">-0</div>
+                <div class="gif-golpe esconder">
+                    <img src="src/imagens/gifs/moves/bubbles.gif" alt="GIF Bubbles">
+                </div>
+                <audio class="cry" src="src/audios/manaphy cry.ogg"></audio>
+                <audio class="cry-adicional" src="src/audios/kyogre cry.ogg"></audio>
             </li>
 
         </ul>
 
-        <button type="button" class="btn-seta btn-avancar" id="btn-avancar">
+        <button class="btn-seta btn-avancar" id="btn-avancar">
             <img src="src/imagens/seta.png" alt="Seta para avançar">
         </button>
     </main>
+    <audio id="dano" src=""></audio>
+    <audio id="harden" src=""></audio>
     <script src="src/js/index.js"></script>
 </body>
 
