@@ -11,13 +11,17 @@
     - Descrições e informações como nível de estrelas, ataque e defesa para cada carta.
 
     - Botões funcionais para avançar para a próxima carta, ou retroceder para a carta anterior.
+
+    - Menus interativos ao clicar na carta, referenciado opções dos jogos de Yu-Gi-Oh! (Tais como: Summon, Modo de Defesa, etc).
+
+    - GIFs de modelos 3D e efeitos sonoros para cada carta, afim de enriquecer a imersão do visualizador.
     
 <h3>Funcionalidades futuras ainda não aplicadas:</h3>
 
-    - Menus interativos ao clicar na carta, referenciado opções dos jogos de Yu-Gi-Oh! Tais como: Summon, Modo de Defesa, etc.
-
-    - GIFs de modelos 3D e efeitos sonoros para cada carta, afim de enriquecer a imersão do visualizador.
-
+    - Botão para que o usuário configure o dano que a carta irá defender, e o alvo que a carta irá atacar.
+    
+    - Botão para que o usuário visualize a arte da carta ou o modelo 3D aplicado (devidamente credidatos).
+    
 <h3>Idiomas suportados:</h3>
 
     - PT-BR (Português do Brasil)
