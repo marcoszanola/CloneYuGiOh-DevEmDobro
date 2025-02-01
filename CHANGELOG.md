@@ -3,6 +3,26 @@ All notable changes to this project will be documented in this file.
  
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [2.3] - 2025-02-01
+ 
+Pequena atualização de melhorias e novidades para o visualizador de cartas Po-Ki-Oh!
+ 
+### Added
+
+- 6 novas cartas adicionadas.
+ 
+### Changed
+
+- Volume geral do "cry" alterado de 0.7 para 0.4.
+- Volume do som de defesa alterado de 1 para 0.7.
+- Timeout de anti-click do botão summon alterado de 500 para 700.
+- Adicionado classe "gif-sprite" & "gif-adicional" para cada carta no HTML, afim de melhorar o uso da classe "summon" pelo CSS.
+ 
+### Fixed
+
+- Retirado uma linha de código de cada botão, que impossibilitava que novas cartas adicionadas ao visualizador funcionassem propriamente.
+    <!-- botao.addEventListener("click", function (**evento**) { & **let cartao = evento.target.closest('.cartao');** -->
  
 ## [2.0] - 2025-01-30
  

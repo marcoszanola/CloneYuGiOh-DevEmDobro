@@ -160,6 +160,14 @@ main {
     background: url(../imagens/fundo-7.jpg) no-repeat;
 }
 
+.fundo-8{
+    background: url(../imagens/fundo-8.jpg) no-repeat;
+}
+
+.fundo-9{
+    background: url(../imagens/fundo-9.jpg) no-repeat;
+}
+
 .btn-seta{
     background-color: #ffffff;
     width: 70px;
@@ -203,6 +211,7 @@ main {
 .cartao.virar{
     transform: rotateZ(90deg);
     transition: transform 0.5s ease-in-out;
+    transition: 0.5s;
 }
 
 .esconder{
@@ -440,7 +449,90 @@ main {
     height: 110px;
 }
 
-.cartao.summon .carta-escura, .cartao.summon .gif-sprite, .cartao.summon .gif-adicional, .cartao.summon .darumaka-gif, .cartao.summon .darmanitan-gif, .cartao.summon .chatot-gif, .cartao.summon .jirachi-gif, .cartao.summon .gyarados-gif, .cartao.summon .tropius-gif, .cartao.summon .golurk-gif, .cartao.summon .manaphy-gif, .cartao.summon .kyogre-gif{
+.lugia-gif{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    top: 45%;
+    left: 50%;
+    width: 312px;
+    height: 254px;
+}
+
+.swadloon-gif{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 114px;
+}
+
+.hatterene-gif{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    top: 45%;
+    left: 50%;
+    width: 95.3px;
+    height: 210px;
+}
+
+.eelektross-gif{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    top: 45%;
+    left: 50%;
+    width: 222px;
+    height: 140px;
+}
+
+.shayminsky-gif{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    top: 50%;
+    left: 43%;
+    width: 156px;
+    height: 146px;
+}
+
+.magikarp-gif{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 173px;
+    height: 184.5px;
+}
+
+/* .cartao.summon .carta-escura, .cartao.summon .gif-sprite, .cartao.summon .gif-adicional, .cartao.summon .darumaka-gif, .cartao.summon .darmanitan-gif, .cartao.summon .chatot-gif, .cartao.summon .jirachi-gif, .cartao.summon .gyarados-gif, .cartao.summon .tropius-gif, .cartao.summon .golurk-gif, .cartao.summon .manaphy-gif, .cartao.summon .kyogre-gif, .cartao.summon .lugia-gif{
+    visibility: visible;
+    opacity: 1;
+} */
+
+.cartao.summon .carta-escura, .cartao.summon .gif-sprite, .cartao.summon .gif-adicional{
     visibility: visible;
     opacity: 1;
 }
@@ -503,7 +595,6 @@ main {
 .disable, .disable *{
     pointer-events: none !important;
 }
-
 
 @keyframes subir{
     from{

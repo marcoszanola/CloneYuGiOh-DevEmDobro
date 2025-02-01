@@ -3,13 +3,6 @@ const btnVoltar = document.getElementById('btn-voltar');
 const cartoes = document.querySelectorAll('.cartao');
 const somDano = document.getElementById('som-dano');
 const somDefesa = document.getElementById('som-defesa');
-// const btnSummon = document.getElementById('btn-summon');
-// const btnSet = document.getElementById('btn-set');
-// const btnFlip = document.getElementById('btn-flipsummon');
-// const btnViewSet = document.getElementById('btn-viewSet');
-// const btnAtk = document.getElementById('btn-ataque');
-// const btnDef = document.getElementById('btn-defend');
-// const btnViewComb = document.getElementById('btn-viewComb');
 const somClique = document.querySelector('.som-clique');
 
 const btnSummon = document.querySelectorAll('.btn-summon');
@@ -109,8 +102,7 @@ cartoes.forEach(cartao => {
 cartoes.forEach(cartao => {
 
     btnSummon.forEach(botao => {
-        botao.addEventListener("click", function(evento){   
-            let cartao = evento.target.closest('.cartao');  
+        botao.addEventListener("click", function(){     
             if (cartao && cartao.classList.contains('selecionado')) {
                 let cry = cartao.querySelector('.cry');
                 cliqueSFX();
@@ -127,7 +119,7 @@ cartoes.forEach(cartao => {
                 cartao.classList.toggle('summon');
     
                 setTimeout(() => {
-                    cry.volume = 0.7;
+                    cry.volume = 0.4;
                     cry.play();
                 }, 230);
     
@@ -135,14 +127,13 @@ cartoes.forEach(cartao => {
                     let menuInicial = cartao.querySelector('.menu-inicial');
                     menuInicial.classList.remove('mostrar-menu');
                     ativarClique(cartao);
-                }, 500);  
+                }, 700);  
             }
         });
     })
 
     btnSet.forEach(botao => {
-        botao.addEventListener("click", function (evento) {
-            let cartao = evento.target.closest('.cartao');
+        botao.addEventListener("click", function () {
             if (cartao && cartao.classList.contains('selecionado')) {
     
                 cliqueSFX();
@@ -172,8 +163,7 @@ cartoes.forEach(cartao => {
 
 
     btnFlip.forEach(botao =>{
-        botao.addEventListener("click", function(evento){
-            let cartao = evento.target.closest('.cartao');
+        botao.addEventListener("click", function(){;
             if (cartao && cartao.classList.contains('selecionado')) {
                 let cry = cartao.querySelector('.cry');
                 let cartaVirada = cartao.querySelector('.carta-virada');
@@ -203,7 +193,7 @@ cartoes.forEach(cartao => {
     
                 cartao.classList.toggle('summon');
         
-                cry.volume = 0.7;
+                cry.volume = 0.4;
                 cry.play();
     
                 setTimeout(() => {
@@ -217,8 +207,7 @@ cartoes.forEach(cartao => {
 
 
     btnViewSet.forEach(botao => {
-        botao.addEventListener("click", function(evento){
-            let cartao = evento.target.closest('.cartao');
+        botao.addEventListener("click", function(){
             if (cartao && cartao.classList.contains('selecionado')) {
     
                 cliqueSFX();
@@ -247,8 +236,7 @@ cartoes.forEach(cartao => {
     });
 
     btnViewComb.forEach(botao => {
-        botao.addEventListener("click", function(evento){
-            let cartao = evento.target.closest('.cartao');
+        botao.addEventListener("click", function(){
             if (cartao && cartao.classList.contains('selecionado')) {
     
                 cliqueSFX();
@@ -264,9 +252,8 @@ cartoes.forEach(cartao => {
     });
 
     btnAtk.forEach(botao => {
-        botao.addEventListener("click", function(evento){
+        botao.addEventListener("click", function(){
             let damage = document.querySelector('.som-dano');
-            let cartao = evento.target.closest('.cartao');
             if (cartao && cartao.classList.contains('selecionado')) {
                 let textoDano = cartao.querySelector('.ataque');
                 let gifGolpe = cartao.querySelector('.gif-golpe');
@@ -290,11 +277,11 @@ cartoes.forEach(cartao => {
                 gifGolpe.style.top = `${gifGolpeTop}%`;
     
                 setTimeout(() => {
-                    cry.volume = 0.7;
+                    cry.volume = 0.4;
                     cry.play();
                     
                     setTimeout(() => {
-                        cryAdicional.volume = 0.7;
+                        cryAdicional.volume = 0.4;
                         cryAdicional.play();
                     }, 500);
     
@@ -332,11 +319,10 @@ cartoes.forEach(cartao => {
     });
 
     btnDef.forEach(botao => {
-        botao.addEventListener("click", function(evento){
+        botao.addEventListener("click", function(){
             let harden = document.querySelector('.som-defesa');
             let weakDamage = document.querySelector('.som-danoBaixo');
             let escudo = document.querySelector('.gif-escudo img');
-            let cartao = evento.target.closest('.cartao');
 
             if (cartao && cartao.classList.contains('selecionado')) {
                 let textoDano = cartao.querySelector('.defesa');
@@ -359,6 +345,7 @@ cartoes.forEach(cartao => {
                 }, 360);
     
                 setTimeout(() => {
+                    harden.volume = 0.7;
                     harden.play();
                 }, 500);
     
@@ -386,11 +373,11 @@ cartoes.forEach(cartao => {
         });
     })
 
-
+    //trocar escudo de global pra individual html, afim de que o texto de dano apareça por cima do escudo, e evitar que o escudo continue aparecendo quando o usuário trocar de carta.
 
     //btnConfig: usuário digita o dano que a carta vai receber, se for maior que a defesa da carta ela quebra, e aparece uma opção para reviver. usuário escolhe o alvo que a carta vai proferir o golpe de ataque.
 
-    //btnLupa: usuário pode visualizar a arte da carta e o modelo 3D usado, devidamentes credidatos.
+    //btnLupa: usuário pode visualizar a arte da carta e o modelo 3D usado, devidamente creditados.
 
 });
 
