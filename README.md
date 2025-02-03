@@ -1,8 +1,8 @@
 # Visualizador de Cartas Po-Ki-Oh!
 
 <h2>Sobre</h2>
-<p>Este projeto é um **visualizador de cartas**, desenvolvido com o principal foco sendo o **aprendizado e estudo do desenvolvedor**.</p>
-<p>**O HTML, CSS e o JavaScript** foram desenvolvidos do zero apenas com **conceitos básicos e sem uso de frameworks**, desenvolvido na IDE VisualStudio.</p>
+<p>Este projeto é um visualizador de cartas, desenvolvido com o principal foco sendo o aprendizado e estudo do desenvolvedor.</p>
+<p>O HTML, CSS e o JavaScript foram desenvolvidos do zero apenas com conceitos básicos e sem uso de frameworks, desenvolvido na IDE VisualStudio.</p>
 
 <h3>Funcionalidades do programa:</h3>
 
@@ -21,6 +21,8 @@
     - Botão para que o usuário configure o dano que a carta irá defender, e o alvo que a carta irá atacar.
     
     - Botão para que o usuário visualize a arte da carta ou o modelo 3D aplicado (devidamente creditados).
+
+    - Funcionalidade que o usuário possa navegar pelas cartas do site de maneira mais prática.
     
 <h3>Idiomas suportados:</h3>
 

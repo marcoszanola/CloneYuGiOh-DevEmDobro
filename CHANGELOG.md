@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4] - 2025-02-03
+ 
+Pequena atualização de melhorias no código e novidades para o visualizador de cartas Po-Ki-Oh!
+ 
+### Added
+
+- 6 novas cartas adicionadas.
+- Leve animação de transição entre cartas no modo Set.
+ 
+### Changed
+
+- Melhor utilização de forma geral das novas classes "gif-sprite" & "gif-adicional" pelo CSS.
+
 ## [2.3] - 2025-02-01
  
 Pequena atualização de melhorias e novidades para o visualizador de cartas Po-Ki-Oh!

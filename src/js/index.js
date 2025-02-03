@@ -373,11 +373,19 @@ cartoes.forEach(cartao => {
         });
     })
 
+    //ta precisando de um balançeamento essas cartas em.
+
+    //adicionar raridade nas cartas.
+
     //trocar escudo de global pra individual html, afim de que o texto de dano apareça por cima do escudo, e evitar que o escudo continue aparecendo quando o usuário trocar de carta.
 
     //btnConfig: usuário digita o dano que a carta vai receber, se for maior que a defesa da carta ela quebra, e aparece uma opção para reviver. usuário escolhe o alvo que a carta vai proferir o golpe de ataque.
 
     //btnLupa: usuário pode visualizar a arte da carta e o modelo 3D usado, devidamente creditados.
+
+    //btnBusca: menu estilo PCBox para facilitar a navegação com muitas cartas.
+
+    //btnVolume: slider para que o usuário ajuste o som da página.
 
 });
 
